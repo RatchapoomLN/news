@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:news/auth/login.dart';
 import 'package:news/auth/register.dart';
 import 'package:news/auth/reset.dart';
-import 'package:news/home/home.dart';
 
 import 'package:news/splashscreenpage.dart';
 
@@ -24,7 +23,6 @@ class MyApp extends StatelessWidget {
         SplashScreenPage.page: (_) => SplashScreenPage(),
         LoginPage.page: (_) => LoginPage(),
         RegisterPage.page: (_) => RegisterPage(),
-        HomePage.page: (_) => HomePage(),
         ResetScreen.page: (_) => ResetScreen()
       },
     );
